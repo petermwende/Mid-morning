@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>A form</title>
+</head>
+<style>
+  body{
+    background-image: url("http://emobilis.ac.ke/images/sliders/slide_6.jpg");
+    font-family: Inconsolata;
+    font-size: 20px;
+    font-style: italic;
+    text-align: left;
+    color: yellow;
+    text-align: center;
+    text-outline: 20px;
+  }
+button{
+  padding: 30px;
+}
+</style>
+<body>
+<h2>eMobilis Mid-morning Class</h2>
+<form action="contacts.html" method="post">
+  <label for="FName">Full Names</label><br>
+  <input type="text" id="FName" placeholder="Enter your full names"><br>
+  <label for="email">Email Address</label><br>
+  <input type="email" id="email" placeholder="Enter your email address"><br>
+  <label for="Contacts">Phone Number</label><br>
+  <input type="text" id="Contacts" placeholder="ie.+254780000000"><br>
+  <label for="DOR">Date Of Registration</label><br>
+  <input type="date" id="DOR"><br>
+  <label for="male">Male</label>
+  <input type="radio" id="male" name="gender">
+  <label for="female">Female</label>
+  <input type="radio" id="female" name="gender"><br>
+  <label for="pic">Student Photo</label>
+  <input type="file" id="pic"><br>
+  <label for="course">Course taken</label>
+  <select name="course" id="course">
+    <option value="Python">Python</option>
+    <option value="Java Script">Java Script</option>
+    <option value="Visual Basic">Visual Basic</option>
+    <option value="PHP">PHP</option>
+    <option value="Java">Java</option>
+    <option value="HTML5">HTML5</option>
+    <option value="C++">C++</option>
+  </select><br>
+  <label for="Pass">Password</label><br>
+  <input type="password" id="Pass" placeholder="Upto 8 characters"><br>
+  <input type="submit" value="Register here!!!"><br>
+
+</form>
+
+</body>
+</html>
